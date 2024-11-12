@@ -10,7 +10,7 @@ const btnSearch = document.querySelector("#search") as HTMLElement;
 const cardContainer = document.querySelector("#card__container") as HTMLElement;
 
 const BASE_URL = "https://newsapi.org/v2/everything?";
-const KEY = "&apiKey=23baddcec7a04c21844659cf751e1861";
+const KEY = "&apiKey=23baddcec7a04c21844659cf751e1861"; /* in .env for future projects */
 
 let articlesArr:IArticle[];
 

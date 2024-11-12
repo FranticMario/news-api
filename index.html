@@ -3,13 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <!-- <link rel="icon" type="image/svg+xml" href="/vite.svg" /> -->
-    <link rel="icon" type="image/svg" href="./src/24-hours-earth-grid-symbol-with-arrows-circle-around-svgrepo-com.svg" />
+    <link rel="icon" type="image/svg" href="./src/24-hours-earth-grid-symbol-with-arrows-circle-around-svgrepo-com.svg" /> <!-- added logo -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>News API</title>
   </head>
   <body>
     <div id="app">
       <h1>NEWS APP</h1>
+      <div
+      class="search__wrapper">
+      <div class="background-image"></div> <!-- necessary for opacity bg-img -->
       <div class="">
            <label for="search__term"> Suchbegriff
             <input type="text" name="" id="search__term">
@@ -36,6 +39,7 @@
       <option value="publishedAt">Neueste zuerst</option>
      </select>
     </label>
+</div>
 </div>
 <button id="search">Suchen</button>
 <section id="card__container">
