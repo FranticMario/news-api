@@ -4,11 +4,49 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + TS</title>
+    <title>News API</title>
   </head>
   <body>
     <div id="app">
-      
+      <h1>NEWS APP</h1>
+      <div class="">
+           <label for="search__term"> Suchbegriff
+            <input type="text" name="" id="search__term">
+           </label>
+      </div>
+      <div class="">
+        <label for="select__language"> Sprache
+        <select name="" id="select__language">
+          <option value="de">Deutsch</option>
+          <option value="en">Englisch</option>
+          <option value="fr">Französisch</option>
+          <option value="es">Spanisch</option>
+          <option value="it">Italienisch</option>
+          <option value="ru">Russisch</option>
+          <option value="nl">Niederländisch</option>
+        </select>
+        </label>
+   </div>
+   <div class="">
+    <label for="sort__selection">Sortieren nach
+     <select name="" id="sort__selection">
+      <option value="relevancy">Relevanz</option>
+      <option value="popularity">Popularität</option>
+      <option value="publishedAt">Neueste zuerst</option>
+     </select>
+    </label>
+</div>
+<button id="search">Suchen</button>
+<section id="card__container">
+  <div id="card">
+    <h2></h2>
+    <p></p>
+    <div>
+      <img src="" alt="">
+    </div>
+    <button></button>
+  </div>
+</section>
     </div>
     <script type="module" src="/src/main.ts"></script>
   </body>
